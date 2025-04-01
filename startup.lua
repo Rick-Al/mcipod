@@ -24,7 +24,7 @@ ensureFileExists("apple.nfp", "https://pastebin.com/raw/xdVUHeuF")
 ensureFileExists("applew.nfp", "https://pastebin.com/raw/2VqqGDE9")
 
 ensureFileExists("itunes", "https://pastebin.com/raw/Rc1PCzLH")
-ensureFileExists("waveflow", "https://pinestore.cc/d/99")
+ensureFileExists("waveflow", "https://gist.githubusercontent.com/michielp1807/9536445bd5773915a58594869049d2ed/raw/a056cc57db5008a9cca2736f931ae8c1359f0a88/waveflow.lua")
 
 local apple = paintutils.loadImage("apple.nfp")
 local applew = paintutils.loadImage("applew.nfp")
