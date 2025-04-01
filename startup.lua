@@ -45,6 +45,5 @@ os.sleep(2)
 term.clear()
 term.setCursorPos(1,1)
 
--- Run programs after ensuring they exist
 shell.run("fg itunes")
 shell.run("bg waveflow")
