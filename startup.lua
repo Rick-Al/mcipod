@@ -20,10 +20,10 @@ local function ensureFileExists(filename, url)
     end
 end
 
-ensureFileExists("apple.nfp", "https://example.com/apple.nfp")
-ensureFileExists("applew.nfp", "https://example.com/applew.nfp")
+ensureFileExists("apple.nfp", "https://pastebin.com/raw/xdVUHeuF")
+ensureFileExists("applew.nfp", "https://pastebin.com/raw/2VqqGDE9")
 
-ensureFileExists("music", "https://pastebin.com/raw/Rc1PCzLH")
+ensureFileExists("itunes", "https://pastebin.com/raw/Rc1PCzLH")
 ensureFileExists("waveflow", "https://pinestore.cc/d/99")
 
 local apple = paintutils.loadImage("apple.nfp")
@@ -46,5 +46,5 @@ term.clear()
 term.setCursorPos(1,1)
 
 -- Run programs after ensuring they exist
-shell.run("fg music")
+shell.run("fg itunes")
 shell.run("bg waveflow")
